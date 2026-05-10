@@ -1,0 +1,85 @@
+{
+  "positive_global_styles": [
+    "purely instrumental arrangement",
+    "instrumental only",
+    "74 BPM",
+    "blurred metropolitan nightscape",
+    "deep nocturnal ambient",
+    "blurred piano",
+    "grainy pulse",
+    "deep hall without brightness",
+    "steady soaking rain",
+    "filtered noise bed",
+    "broken pulse",
+    "reflective introspective mood",
+    "uncertain harmonic footing",
+    "intimate close-mic feel",
+    "drifting attention",
+    "playful light mischief",
+    "wide expansive horizon",
+    "tidal swell in intensity",
+    "exposed charged undertow",
+    "moderate forward motion",
+    "two to three clear layers",
+    "balanced tension",
+    "honest mid-forward balance",
+    "playful weekend brightness"
+  ],
+  "negative_global_styles": [
+    "vocals",
+    "singing",
+    "lyrics",
+    "speech",
+    "voiceover",
+    "choir",
+    "humming",
+    "rap",
+    "spoken word",
+    "melodic rap",
+    "bright brass fanfare parade"
+  ],
+  "sections": [
+    {
+      "section_name": "Wet pavement",
+      "positive_local_styles": [
+        "distant kick or pulse",
+        "filtered noise bed",
+        "minor leaning harmony field"
+      ],
+      "negative_local_styles": [
+        "acoustic campfire strum",
+        "vocals"
+      ],
+      "duration_ms": 10000,
+      "lines": []
+    },
+    {
+      "section_name": "Neon bleed",
+      "positive_local_styles": [
+        "arpeggiated synth pattern",
+        "delay throws on hits",
+        "slightly unstable detuned layer"
+      ],
+      "negative_local_styles": [
+        "full orchestra only",
+        "choir"
+      ],
+      "duration_ms": 10000,
+      "lines": []
+    },
+    {
+      "section_name": "Carry home",
+      "positive_local_styles": [
+        "piano motif returns softer",
+        "low-pass on master gentle",
+        "tail-heavy reverb ending"
+      ],
+      "negative_local_styles": [
+        "big chorus vocals",
+        "EDM riser into drop"
+      ],
+      "duration_ms": 10000,
+      "lines": []
+    }
+  ]
+}

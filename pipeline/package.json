@@ -11,9 +11,13 @@
       "import": "./dist/index.js"
     }
   },
+  "bin": {
+    "hero-sound-plan": "./dist/cli.js"
+  },
   "scripts": {
     "build": "tsc",
-    "test": "vitest run"
+    "test": "vitest run",
+    "cli": "node dist/cli.js"
   },
   "engines": {
     "node": ">=18"
