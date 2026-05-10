@@ -163,10 +163,10 @@ export function renderCompositionPlan(
   const qt = quantizeTension(meta.energy.tension);
   const qb = quantizeBrightness(meta.energy.brightness);
 
-  const motionLine = pickFrom(seed, "en:m", lex.energy.motion[qm]);
-  const densityLine = pickFrom(seed, "en:d", lex.energy.density[qd]);
-  const tensionLine = pickFrom(seed, "en:t", lex.energy.tension[qt]);
-  const brightLine = pickFrom(seed, "en:b", lex.energy.brightness[qb]);
+  const motionLine = pickFrom(seed, "en:m", lex.energy.motion?.[qm]);
+  const densityLine = pickFrom(seed, "en:d", lex.energy.density?.[qd]);
+  const tensionLine = pickFrom(seed, "en:t", lex.energy.tension?.[qt]);
+  const brightLine = pickFrom(seed, "en:b", lex.energy.brightness?.[qb]);
   if (motionLine) globals.push(motionLine);
   if (densityLine) globals.push(densityLine);
   if (tensionLine && meta.energy.tension > 0.45) globals.push(tensionLine);

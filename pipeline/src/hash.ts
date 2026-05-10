@@ -24,7 +24,11 @@ export function pickIndex(seed: string, salt: string, modulo: number): number {
   return h % modulo;
 }
 
-export function pickFrom<T>(seed: string, salt: string, items: readonly T[]): T | undefined {
-  if (items.length === 0) return undefined;
+export function pickFrom<T>(
+  seed: string,
+  salt: string,
+  items: readonly T[] | undefined,
+): T | undefined {
+  if (!items?.length) return undefined;
   return items[pickIndex(seed, salt, items.length)];
 }

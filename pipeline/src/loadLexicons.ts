@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { WeatherCondition } from "./types.js";
 
@@ -50,6 +50,7 @@ export function loadLexicons(lexiconRoot: string): Lexicons {
     product: readJson(join(root, "product.json")),
     world: readJson(join(root, "world.json")),
     texture: readJson(join(root, "texture.json")),
+    mood: readJson(join(root, "mood.json")),
     weather: readJson(join(root, "weather.json")),
     moon: readJson(join(root, "moon.json")),
     energy: readJson(join(root, "energy.json")),
