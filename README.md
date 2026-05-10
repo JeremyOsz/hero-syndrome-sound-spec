@@ -21,7 +21,7 @@ Detailed pipeline: [schema-to-elevenlabs-pipeline.md](schema-to-elevenlabs-pipel
 | [weather-app-time-of-day-meta-modifiers.md](weather-app-time-of-day-meta-modifiers.md)                       | **Authoritative** stacking rules: time phases, weekday, weather, moon-as-tide, formulas, example JSON shapes. |
 | [schema-to-elevenlabs-pipeline.md](schema-to-elevenlabs-pipeline.md)                                         | Engineering path from stacked state → `composition_plan`.                                                     |
 | [lexicon/](lexicon/)                                                                                         | Phrase pools and section archetypes the renderer pulls from ([lexicon/README.md](lexicon/README.md)).         |
-| [examples/](examples/)                                                                                       | Eight **worked examples** (one markdown file per time phase); index in [examples/README.md](examples/README.md). |
+| [examples/](examples/)                                                                                       | **24** worked `composition_plan` examples (three contrasting scenarios per time phase); index in [examples/README.md](examples/README.md). |
 
 
 ---
