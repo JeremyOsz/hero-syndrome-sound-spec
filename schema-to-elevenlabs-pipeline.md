@@ -159,7 +159,7 @@ Same pipeline; different **archetype table** and **negative blocks**.
 
 ## 6. Relation to the hand-written examples
 
-The file `elevenlabs-sample-composition-plans-by-time-phase.md` is what you get when a human runs **Stage D–E** once per phase. The pipeline above is how you **automate** the same structure so every user session is consistent with your modifier doc.
+The files in [examples/](examples/) (one per time phase) are what you get when a human runs **Stage D–E** once per phase. The pipeline above is how you **automate** the same structure so every user session is consistent with your modifier doc.
 
 ---
 
