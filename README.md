@@ -8,11 +8,13 @@ It is **not** a product or narrative concept archive — only the technical spec
 
 ## Who should read what
 
-| If you are… | Start here |
-|-------------|------------|
-| **Curator / producer** | This README, then [weather-app-time-of-day-meta-modifiers.md](weather-app-time-of-day-meta-modifiers.md) (overview of inputs → meta → music) |
-| **Sound / generative design** | [weather-app-time-of-day-meta-modifiers.md](weather-app-time-of-day-meta-modifiers.md), then [lexicon/README.md](lexicon/README.md) |
-| **Engineering / API** | [schema-to-elevenlabs-pipeline.md](schema-to-elevenlabs-pipeline.md), [lexicon/README.md](lexicon/README.md), [elevenlabs-sample-composition-plans-by-time-phase.md](elevenlabs-sample-composition-plans-by-time-phase.md) |
+
+| If you are…                   | Start here                                                                                                                                                                                                                 |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Curator / producer**        | This README, then [weather-app-time-of-day-meta-modifiers.md](weather-app-time-of-day-meta-modifiers.md) (overview of inputs → meta → music)                                                                               |
+| **Sound / generative design** | [weather-app-time-of-day-meta-modifiers.md](weather-app-time-of-day-meta-modifiers.md), then [lexicon/README.md](lexicon/README.md)                                                                                        |
+| **Engineering / API**         | [schema-to-elevenlabs-pipeline.md](schema-to-elevenlabs-pipeline.md), [lexicon/README.md](lexicon/README.md), [elevenlabs-sample-composition-plans-by-time-phase.md](elevenlabs-sample-composition-plans-by-time-phase.md) |
+
 
 ---
 
@@ -29,11 +31,14 @@ Detailed pipeline: [schema-to-elevenlabs-pipeline.md](schema-to-elevenlabs-pipel
 
 ## Repository map
 
-| Document | Purpose |
-|----------|---------|
-| [weather-app-time-of-day-meta-modifiers.md](weather-app-time-of-day-meta-modifiers.md) | **Authoritative** stacking rules: time phases, weekday, weather, moon-as-tide, formulas, example JSON shapes. |
-| [schema-to-elevenlabs-pipeline.md](schema-to-elevenlabs-pipeline.md) | Engineering path from stacked state → `composition_plan`. |
-| [lexicon/](lexicon/) | Phrase pools and section archetypes the renderer pulls from ([lexicon/README.md](lexicon/README.md)). |
-| [elevenlabs-sample-composition-plans-by-time-phase.md](elevenlabs-sample-composition-plans-by-time-phase.md) | Eight **worked examples** (one per time phase) for QA and prompt vibe checks. |
+
+| Document                                                                                                     | Purpose                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| [weather-app-time-of-day-meta-modifiers.md](weather-app-time-of-day-meta-modifiers.md)                       | **Authoritative** stacking rules: time phases, weekday, weather, moon-as-tide, formulas, example JSON shapes. |
+| [schema-to-elevenlabs-pipeline.md](schema-to-elevenlabs-pipeline.md)                                         | Engineering path from stacked state → `composition_plan`.                                                     |
+| [lexicon/](lexicon/)                                                                                         | Phrase pools and section archetypes the renderer pulls from ([lexicon/README.md](lexicon/README.md)).         |
+| [elevenlabs-sample-composition-plans-by-time-phase.md](elevenlabs-sample-composition-plans-by-time-phase.md) | Eight **worked examples** (one per time phase) for QA and prompt vibe checks.                                 |
+
 
 ---
+
